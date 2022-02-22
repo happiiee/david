@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>david</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+</style>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <div class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <svg viewBox="0 0 100 80" width="20" height="20">
+                        <rect width="100" height="20" fill="rgb(41, 216, 201)"></rect>
+                        <rect y="30" width="100" height="20" fill="rgb(41, 216, 201)"></rect>
+                        <rect y="60" width="100" height="20" fill="rgb(41, 216, 201)"></rect>
+                    </svg>
+                </a>
+            </div>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Games">Games</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()"> &times; </a>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Games">Games</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+    <div id="Home">
+        <div class="d4em"><span class="firstletter">H</span>i,</div>
+        <div class="d6em">I'm David, </div>
+        <div class="d3em">a self-taught web developer and<br> 
+            here you can take a look on my current project. </div>
+
+    </div>
+    <div id="About">
+        <div class="d3emheadline">Who I am and why I started to learn web development.</div>
+        <div class="d1-5em">Nearly a decade ago I was missing some details in my favorite game "Rome2-Total War", so i started my first digital project. <br>
+        A couple days later I published my Rome2 Mod on Steam.</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="learnabout">
+            <a class="aboutact" href="#Contact">You can learn more about me here</a>
+        </div>
+    </div>
+    <div id="Skills">
+        <div class="skilltext">
+            <span class="firstletter">K</span>eep in Mind that i'm learning since february 2022, so even as a quick learner it'll take some time!<br>
+        </div>
+        <div class="skillgrid">
+            <div id="html" class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <div class="skillbutton">HTML</div>
+                        <a><img src="html.png" class="skillimg"></a>        
+                    </div>
+                    <div class="flip-box-back">
+                        <div class="skillbutton">HTML</div>
+                        <a><img src="html2.png" class="skillimg"></a>        
+                    </div>
+                </div>
+            </div>
+            <div id="css" class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <div class="skillbutton">CSS</div>
+                        <a><img src="css.png" class="skillimg"></a>
+                    </div>
+                    <div class="flip-box-back">
+                        <div class="skillbutton">CSS</div>
+                        <a><img src="css2.png" class="skillimg"></a>        
+                    </div>
+                </div>
+            </div>
+            <div id="js" class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <div class="skillbutton">JS</div>
+                        <a><img src="js.png" class="skillimg"></a>        
+                    </div>
+                    <div class="flip-box-back">
+                        <div class="skillbutton">HTML</div>
+                        <a><img src="js2.png" class="skillimg"></a>        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Games">
+        <div id="tota-war">
+            <a><img src="https://img.wallpapersafari.com/desktop/728/410/48/25/gHOYMU.jpg" class="gameimg"></a>
+            <span class="firstletter">T</span>otal War: Rome II is set in Europe, the Mediterranean, and the Near East in the Classical antiquity period.
+             The grand single-player campaign begins in 272 BC and lasts for 300 years.
+             Like its predecessor, Rome II blends turn-based grand strategy and civilization management with real-time tactical battles.
+            <a href="https://www.youtube.com/watch?v=LKrRCADS7To&ab_channel=GameNews">game video</a>
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=531607639">My mod</a>
+        </div>
+        <div id="poe">
+            <a><img src="https://www.warlegend.net/wp-content/uploads/path-of-exile.jpg" class="gameimg"></a>
+            <span class="firstletter">P</span>ath of Exile is an online Action RPG set in the dark fantasy world of Wraeclast.
+             It is designed around a strong online item economy, deep character customisation,
+             competitive PvP and ladder races.
+             The game is completely free and will never be "pay to win".
+        </div>
+        <div id="civ6">
+            <a><img src="https://p4.wallpaperbetter.com/wallpaper/362/618/561/civilization-6-4k-civilization-vi-wallpaper-preview.jpg" class="gameimg"></a>
+            <span class="firstletter">C</span>ivilization VI is a turn-based strategy video game,
+             in which one or more players compete alongside computer-controlled
+             AI opponents to grow their individual civilization from a small tribe
+             to control of the entire planet across several periods of development.
+        </div>
+        <div id="lol">
+            <a><img src="https://www.leagueoflegends.com/static/open-graph-2e582ae9fae8b0b396ca46ff21fd47a8.jpg" class="gameimg"></a>
+            <span class="firstletter">L</span>eague of Legends is a team-based strategy game
+             where two teams of five powerful champions face off to destroy the other's base.
+             Choose from over 140 champions to make epic plays, secure kills,
+             and take down towers as you battle your way to victory.
+        </div>
+        <div id="cs">
+            <a><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1641233427" class="gameimg"></a>
+            <span class="firstletter">C</span>ounter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter developed by Valve and Hidden Path Entertainment.
+             The game pits two teams, Terrorists and Counter-Terrorists, against each other in different objective-based game modes.
+        </div>
+    </div>
+    <div id="Contact">
+        <div class="contactleft">
+            <p class="h4">Contact me</p>
+            <span class="firstletter">I</span> am open for Feedback and Suggetions
+        </div>
+        <div class="contactright">
+        <form action="action_page.php">
+
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name.."><br>
+                        
+            <label for="subject">Subject</label><br>
+            <input type="text" id="subjectline" name="subject" placeholder="Your Subject.."><br>
+
+            <label for="message">Message/Details</label><br>
+            <textarea id="messagearea" name="message" placeholder="Write your details here.." style="height:auto"></textarea><br>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+    </div>
+
+
+
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('navbar').style.marginLeft ='250px';
+            document.getElementById('Home').style.marginLeft ='250px';
+            document.getElementById('About').style.marginLeft ='250px';
+            document.getElementById('Skills').style.marginLeft ='250px';
+            document.getElementById('Games').style.marginLeft ='250px';
+            document.getElementById('Contact').style.marginLeft ='250px';
+        }
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width = '0px';
+            document.getElementById('navbar').style.marginLeft ='0px';
+            document.getElementById('Home').style.marginLeft ='0px';
+            document.getElementById('About').style.marginLeft ='0px';
+            document.getElementById('Skills').style.marginLeft ='0px';
+            document.getElementById('Games').style.marginLeft ='0px';
+            document.getElementById('Contact').style.marginLeft ='0px';
+        }
+        
+    </script>
+</body>
+</html>
